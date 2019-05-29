@@ -2,9 +2,9 @@
   "name": "face-detection-server",
   "version": "1.0.0",
   "description": "server",
-  "main": "script.js",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "author": "Tiaan",
   "license": "ISC",
