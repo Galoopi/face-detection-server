@@ -2,7 +2,7 @@
   "name": "face-detection-server",
   "version": "1.0.0",
   "description": "server",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "start": "nodemon server.js"
   },
