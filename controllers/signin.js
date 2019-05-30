@@ -19,7 +19,6 @@ const handleSignin = (db, bcrypt) => (req,res) => {
     } else{
       res.status(400).json('wrong ')
     }
-
   })
   .catch(err => res.status(400).json('wrong info'))
   }
