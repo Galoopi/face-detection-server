@@ -1,7 +1,7 @@
 {
   "name": "face-detection-server",
   "version": "1.0.0",
-  "description": "server",
+  "description": "",
   "main": "script.js",
   "scripts": {
     "start": "node server.js"
@@ -20,6 +20,5 @@
   },
   "devDependencies": {
     "nodemon": "^1.19.0"
-  },
-  "description": ""
+  }
 }
