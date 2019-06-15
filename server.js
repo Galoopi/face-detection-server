@@ -35,7 +35,7 @@ app.post('/signin', signin.handleSignin(db, bcrypt))
   app.get('/profile/:id',(req, res) => {profile.handleProfileGet(req , res, db) })
 
 //imgage count
-app.put('/image', (req, res) => {image.handleImage(req , res) })
+app.put('/image', (req, res) => {image.handleImage(req , res, db) })
 
 //API call
 app.post('/imageurl', (req, res) => {image.handleApiCall(req , res) })
